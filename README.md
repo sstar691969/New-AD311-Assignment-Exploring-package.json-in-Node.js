@@ -51,9 +51,7 @@ Specifies where the project source code is hosted.
 
 Usually links to a GitHub, GitLab, or Bitbucket repository.
 Helps users and contributors find the source code.
-
 Makes collaboration easier.
-
 Allows others to report issues or submit improvements.
 
 Important when publishing packages to npm.
@@ -61,14 +59,14 @@ keywords
 Example:
 "keywords": ["node", "npm", "learning", "package-json"]
 Purpose:
-
 Provides searchable tags for the package.
 
 Why It’s Useful:
-
 Makes your package easier to discover on npm.
-
 Improves visibility when others search for related tools.
-
 Helps categorize your project.
+
+"devDependencies":using Jest allows to test and edge test code for errors {
+  "jest": "^29.0.0"
+},
 
