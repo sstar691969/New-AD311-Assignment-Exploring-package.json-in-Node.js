@@ -11,6 +11,44 @@ Purpose of package-lock.json: Ensures Consistent Installs
 Run npm init everyone gets exact same dependency versions.
 guarantees:
 
+What is package.json?
+
+The package.json file contains metadata about a Node.js project, including dependencies, scripts, version, author, and configuration settings.
+
+Dependencies vs DevDependencies
+
+Dependencies are required in production.
+
+DevDependencies are only needed during development.
+
+Scripts
+
+Scripts automate commands such as starting the app (npm start) or running tests (npm test).
+
+Versioning
+
+The version field follows Semantic Versioning:
+
+MAJOR.MINOR.PATCH
+
+Major = breaking changes
+
+Minor = new features
+
+Patch = bug fixes
+
+Engines
+
+The engines field specifies required Node.js and npm versions.
+
+Repository, Keywords, Author, License
+
+These fields help with collaboration, discoverability, ownership, and legal usage.
+
+package-lock.json
+
+Locks exact dependency versions to ensure consistent installs across environments.
+
 Same dependency tree
 
 Same behavior
@@ -24,10 +62,6 @@ Team projects
 Production apps
 
 CI/CD pipelines
-
-You should commit package-lock.json because:
-
-1. Prevents “Works on My Machine” Problems
 
 All developers use the exact same dependency versions.
  2. Keeps Production Stable
